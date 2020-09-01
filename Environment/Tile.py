@@ -11,7 +11,7 @@ class Tile:
         # If input is not a terrain type, throw error
         if type(terr_type) != Terrain_Type:
             raise TypeError(
-                "Must be intialized with a proper terrain type.\
+                "Must be initialized with a proper terrain type.\
                 \nSee /Environment/Tile.py"
             )
         self.terr_type = terr_type
