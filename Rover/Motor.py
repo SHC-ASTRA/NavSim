@@ -12,4 +12,5 @@ class Motor(Part):
         self.speed = speed
         super().__init__(rel_x, rel_y)
         # Raise here such that errors in passed args will hit the Part constructor first
-        raise e
+        if "e" in locals():
+            raise e
