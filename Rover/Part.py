@@ -6,3 +6,9 @@ class Part:
             )
         self.rel_x = rel_x
         self.rel_y = rel_y
+
+    def get_rel_x(self):
+        return self.rel_x
+
+    def get_rel_y(self):
+        return self.rel_y
