@@ -4,6 +4,12 @@ from Rover.Rover import *
 
 class World_Manager:
     def __init__(self, rover, tilemap):
+        """Initializes a WorldManager instance.
+
+        Keyword Arguments:
+        rover -- an instance of the Rover class
+        tilemap -- an instance of a TileMap class
+        """
         if type(rover) != Rover:
             raise TypeError(
                 "Must be initialized with a Rover class.\
