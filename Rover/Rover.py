@@ -3,6 +3,13 @@
 class Rover:
     def __init__(self, mass=10, rotation=0, position=None,
                  ):
+        """Initialized a Rover instance.
+
+        Keyword Arguments:
+        mass -- the mass of the rover in kilograms
+        rotation -- the initial rotation of the rover with respect to the origin in degrees
+        position -- the initial position of the rover with respect to the origin in meters
+        """
         if position is None:
             position = [0, 0]
 
