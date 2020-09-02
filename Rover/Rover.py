@@ -3,7 +3,7 @@
 class Rover:
     def __init__(self, mass=10, rotation=0, position=None,
                  ):
-        """Initialized a Rover instance.
+        """Initializes a Rover instance.
 
         Keyword Arguments:
         mass -- the mass of the rover in kilograms
