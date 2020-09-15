@@ -1,4 +1,4 @@
-
+# Tile map class
 
 class Tilemap:
     def __init__(self):
