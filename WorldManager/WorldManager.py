@@ -2,7 +2,7 @@ from Environment.Tilemap import *
 from Rover.Rover import *
 
 
-class World_Manager:
+class WorldManager:
     def __init__(self, rover, tilemap):
         """Initializes a WorldManager instance.
 
