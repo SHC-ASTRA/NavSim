@@ -1,4 +1,5 @@
-from Rover.Motor import Motor
+from .GPS import GPS
+from .Motor import Motor
 
 
 class Rover:
@@ -47,5 +48,5 @@ class Rover:
         ]
 
         self.sensors = [
-
+            GPS(0, 0)
         ]
