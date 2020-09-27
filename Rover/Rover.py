@@ -35,3 +35,5 @@ class Rover:
             )
 
         self.position = list(position)
+
+        self.velocity = [0, 0]
