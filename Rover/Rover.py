@@ -1,3 +1,4 @@
+from Rover.Motor import Motor
 
 
 class Rover:
@@ -37,3 +38,14 @@ class Rover:
         self.position = list(position)
 
         self.velocity = [0, 0]
+
+        self.parts = [
+            Motor(.25, .25),
+            Motor(.25, -.25),
+            Motor(-.25, -.25),
+            Motor(-.25, .25),
+        ]
+
+        self.sensors = [
+
+        ]
