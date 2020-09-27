@@ -31,6 +31,8 @@ class WorldManager:
         simtimestep = timestep * self.timescale
 
         update_physics(self.rover, self.tilemap, simtimestep)
+        for sensor in self.rover.sensors:
+            sensor.update(self.rover, self.tilemap, simtimestep)
 
         self.time_elapsed += simtimestep
 
